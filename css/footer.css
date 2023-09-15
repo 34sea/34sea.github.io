@@ -1,0 +1,135 @@
+.publiVe{
+    height: 200px;
+    background-color: #20b2aa;
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comun{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 400px;
+}
+
+.comun img{
+    width: 45px;
+}
+
+.comun h2{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.comun p{
+    font-size: 14px;
+    color: #fff;
+    
+}
+
+.comun .texto{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+}
+
+.formasPagemento{
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    gap: 30px;
+}
+
+.formasPagemento h2{
+    font-size: 1.2rem;
+}
+
+.peg{
+    display: flex;
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.paga{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #ccc;
+    padding: 7px 20px;
+    border-radius: 10px;
+    
+}
+
+.paga img{
+    width: 20px;
+}
+
+.allPaga{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer{
+    padding: 30px 60px;
+    border-top: 1px solid #eee;
+    height: 150px;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.footer ul li h2{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.footer ul li .linksD{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer ul li .linksD a{
+    font-size: 13px;
+    color: #767676;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    align-items: center;
+}
+
+.footer ul li .linksD a img{
+    width: 15px;
+}
+
+.footer ul li .linksD a:hover{
+    transition: all 0.1s;
+    text-decoration: underline;
+    color: #222;
+}
+
+.assinatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-top: 1px solid #eee;
+}
+
+.assinatura a{
+    text-decoration: none;
+    color: #767676;
+    font-size: 14px;
+}

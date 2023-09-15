@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*:not(i,span){
+    font-family: 'Roboto', sans-serif !important;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: white;
+}
+
+
+main{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body{
+    background-color: #fff;
+    overflow-x: hidden;
+}
+section{
+    padding: 0px 60px;
+}
+.para{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    display: none;
+}
+
+.para img{
+    width: 18px;
+}
+
+.para h2{
+    font-size: 1.2rem;
+}
+
+.para a{
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.preco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.preco a{
+    font-size: 15px!important;
+    color: #222!important;
+}
+
+.icons img{
+    width: 16px!important;
+}
+
+.produtos{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    list-style: none;
+    justify-content: space-between;
+    border: 0px solid black;
+    overflow-x: hidden;
+}
+
+.produtos:hover{
+    overflow-x: auto;
+}
+
+.produtos li{
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+
+.corpoCont{
+    padding-top: 20px;
+}
+
+
+.produtos li .imgPri{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.produtos a{
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.promo{
+    padding: 0px 20px !important;
+    background-image: url(../img/Banner/banner.png);
+    height: 200px;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: none;
+}
+.promo img{
+    
+}
+
+.textP{
+    font-size: 12px;
+    color: #fff;
+    width: 45px;
+    background-color: #cc0c39dc;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    gap: 5px;
+    padding: 0px 10px;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.textP1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #cc0c39;
+    font-weight: normal;
+}
+
+.textP1 span s{
+    color: #888;
+    font-weight: normal;
+    font-size: 13px;
+}
+.textP img{
+    display: none;
+}
+
+.imgDes{
+    border: 0px solid black;
+    padding: 10px 20px;
+    height: 150px;
+    width: 155px;
+    background-color: #f2f2f4;
+    overflow: hidden;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgDes img{
+    width: 100%;
+    
+}
+
+.corpoCont{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.pu{
+    border: 0px solid black;
+    width: 220px;
+    height: 200px;
+    background-color: #20b2aa;
+    border-radius: 0px;
+    color: #fff;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.pu h2{
+    font-size: 1.5rem;
+}
+
+.pu p{
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+.pu a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.cate{
+    border: 0px solid black;
+    min-height: 600px;
+    padding: 10px 60px;
+    
+}
+
+.cate{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.cateL{
+    min-height: 400px;
+    width: 350px;
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cateL .cateL1{
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    border: 0px solid black;
+    background-image: url(../img/promo/esporte.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cateL .cateL2{
+    display: inline-block;
+    width: 350px;
+    height: 400px;
+    border: 0px solid black;
+    background-image: url(../img/promo/moda2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f8f8f8;
+}
+
+.cateL .cateL3{
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    border: 0px solid black;
+    background-image: url(../img/promo/computer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cateC{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cateC1{
+    width: 550px;
+    height: 300px;
+    border: 0px solid black;
+    background-image: url(../img/promo/OFF.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.juntoC{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.cateC2, .cateC3{
+    width: 270px;
+    height: 300px;
+    border: 0px solid black;
+    
+}
+
+.cateC2{
+    background-image: url(../img/promo/arte2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cateC3{
+    background-image: url(../img/promo/arte.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cateC4{
+    width: 550px;
+    height: 200px;
+    border: 0px solid black;
+    background-image: url(../img/Banner/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cateR{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cateR1{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border: 0px solid black;
+    background-image: url(../img/promo/el.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cateR2{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border: 0px solid black;
+    background-image: url(../img/promo/mac.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cateR3{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border: 0px solid black;
+    background-image: url(../img/promo/play.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #f2f2f4;
+}
+
+.promoBanner{
+    margin-top: 10px;
+    height: 160px;
+    padding: 10px 60px;
+    display: none;
+}
+
+.promoBannerAv{
+    display: inline-block;
+    height: 160px;
+    width: 100%;
+    background: #20b2aa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: url(../img/headerBanner/eletronica/eletronicav2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promoBannerAv h2{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.promoBannerAv p{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 25px;
+    width: 620px;
+    text-align: center;
+}
+
+.popular{
+    margin-top: 10px;
+}
+
+.popular h2{
+    font-size: 1.3rem;
+}
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todosProdutos{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 40px;
+}
+.todosProdutos h2{
+    font-size: 1.3rem;
+}
+
+.produtosKhoza{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.produtosKhoza li{
+    border: 0px solid black;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.produtosKhoza a{
+    text-decoration: none;
+}
+
+.btnMaisPro{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btnMaisPro a img{
+    width: 17px;
+}
+
+
+.btnMaisPro a{
+    border: 1px solid #aaa;
+    height: 40px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #222;
+    text-decoration: none;
+    gap: 7px;
+
+}
+
+.btnMaisPro a span{
+    font-size: 14px;
+} 
+
+.pri{
+    font-weight: 700;
+}
+
+.ver{
+   text-decoration: underline!important;
+   color: #222;
+   font-size: 14px;
+   text-transform: capitalize;
+}
+
+.descriProduto{
+    font-size: 14px;
+    color: #222;
+}
+
+.loginFlu{
+    height: 140px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08),0 10px 20px rgba(0,0,0,.08);
+    background-color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 35px;
+    z-index: 9999!important;
+    
+}
+
+.teXm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.teXm h2{
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.loginFlu p{
+    font-size: 1.2rem;
+    color: #222;
+}
+
+.tiraLogin{
+    color: #aaa;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.opcoesLogin{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.opcoesLogin a{
+    text-decoration: none;
+    color: #222;
+}
+
+.entrarLogin{
+    border: 0px solid black;
+    width: 240px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: #fff!important;
+    background-color: #20b2aa;
+}
+
+.ou{
+    font-size: 1.3rem;
+    color: #aaa;
+
+}
+
+.atravesDeRedes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.atravesDeRedes a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atravesDeRedes a img{
+    width: 25px;
+}
+
+.twt{
+    background-color: #52bbf5;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.twt img{
+    width: 15px!important;
+}
